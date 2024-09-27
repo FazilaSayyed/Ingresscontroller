@@ -18,7 +18,7 @@ spec:
     spec: 
       containers: 
         - name: student-container
-          image: fazilasayyed/student:latest
+          image: tomcat:latest
           resources: 
             requests:
               cpu: "25m"
