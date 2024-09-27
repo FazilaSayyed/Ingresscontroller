@@ -10,7 +10,7 @@ spec:
   - host: a00cdfa3de5314dfe96168cf06e07103-80138960.us-east-1.elb.amazonaws.com
     http:
       paths:
-       -  path: /
+       - path: /
             pathType: Prefix
             backend:
               service: 
