@@ -17,11 +17,11 @@ spec:
                 name: todoapp
                 port:
                   number: 80
-         -  path: /student
+       - path: /student
             pathType: Prefix
             backend:
               service: 
                 name: studentapp
                 port:
                   number: 8080
-        
+                                        
