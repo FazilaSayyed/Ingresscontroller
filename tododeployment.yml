@@ -18,7 +18,7 @@ spec:
     spec: 
       containers: 
         - name: todo-container
-          image: fazilassayyed/todo:latest
+          image: fazilasayyed/todo:latest
           resources: 
             requests:
               cpu: "25m"

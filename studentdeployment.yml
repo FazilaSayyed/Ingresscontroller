@@ -18,7 +18,7 @@ spec:
     spec: 
       containers: 
         - name: student-container
-          image: fazilassayyed/student:latest
+          image: fazilasayyed/student:latest
           resources: 
             requests:
               cpu: "25m"
