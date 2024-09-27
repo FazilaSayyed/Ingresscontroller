@@ -11,17 +11,17 @@ spec:
     http:
       paths:
        - path: /
-            pathType: Prefix
-            backend:
-              service: 
-                name: todoapp
-                port:
-                  number: 80
+          pathType: Prefix
+          backend:
+            service: 
+              name: todoapp
+              port:
+                number: 80
        - path: /student
-            pathType: Prefix
-            backend:
-              service: 
-                name: studentapp
-                port:
-                  number: 8080
-                                        
+          pathType: Prefix
+          backend:
+            service: 
+              name: studentapp
+              port:
+                number: 8080
+                                      
